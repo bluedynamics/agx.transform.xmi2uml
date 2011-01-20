@@ -1,0 +1,12 @@
+<configure xmlns="http://namespaces.zope.org/zope"
+           xmlns:agx="http://namespaces.zope.org/agx">
+  
+  <include package="agx.core" />
+  <include package="agx.io.xmi" />
+  
+  <agx:transform
+    name="xmi2uml"
+    class=".transform.XMI2UML"
+  />
+
+</configure>

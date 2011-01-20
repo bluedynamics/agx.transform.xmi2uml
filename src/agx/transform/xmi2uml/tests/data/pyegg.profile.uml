@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_zGgaQMQXEd62q_MLW0kltQ" name="pyegg" metaclassReference="_3tjd4MQXEd62q_MLW0kltQ _BSwQYMSCEd62q_MLW0kltQ _Rh-vwMY9Ed6drcAS_WIADA">
+  <eAnnotations xmi:id="_DAtNIcQYEd62q_MLW0kltQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_dj2HccSCEd62q_MLW0kltQ" name="pyegg" nsURI="http:///schemas/pyegg/_dj2HcMSCEd62q_MLW0kltQ/2" nsPrefix="pyegg">
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_dj2HcsSCEd62q_MLW0kltQ" name="pyegg">
+        <eAnnotations xmi:id="_dj2Hc8SCEd62q_MLW0kltQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_7yBY4MQXEd62q_MLW0kltQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_dj2HdMSCEd62q_MLW0kltQ" name="base_Package" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//Package"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_dj2HdsSCEd62q_MLW0kltQ" name="DecoratedClass">
+        <eAnnotations xmi:id="_dj2ugMSCEd62q_MLW0kltQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_DB_ZYMSCEd62q_MLW0kltQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_dj2ugcSCEd62q_MLW0kltQ" name="base_Class" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_dj2ug8SCEd62q_MLW0kltQ" name="decorator" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_RethocSCEd62q_MLW0kltQ" name="pyegg" nsURI="http:///schemas/pyegg/_RethoMSCEd62q_MLW0kltQ/1" nsPrefix="pyegg">
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_RethosSCEd62q_MLW0kltQ" name="pyegg">
+        <eAnnotations xmi:id="_Retho8SCEd62q_MLW0kltQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_7yBY4MQXEd62q_MLW0kltQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_RethpMSCEd62q_MLW0kltQ" name="base_Package" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//Package"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_RethpsSCEd62q_MLW0kltQ" name="DecoratedClass">
+        <eAnnotations xmi:id="_Rethp8SCEd62q_MLW0kltQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_DB_ZYMSCEd62q_MLW0kltQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_RethqMSCEd62q_MLW0kltQ" name="base_Class" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_RethqsSCEd62q_MLW0kltQ" name="decorator" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_DAt0MMQYEd62q_MLW0kltQ" name="pyegg" nsURI="http:///schemas/pyegg/_DAtNIMQYEd62q_MLW0kltQ/0" nsPrefix="pyegg">
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_DAt0McQYEd62q_MLW0kltQ" name="pyegg">
+        <eAnnotations xmi:id="_DAt0MsQYEd62q_MLW0kltQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_7yBY4MQXEd62q_MLW0kltQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_DAt0M8QYEd62q_MLW0kltQ" name="base_Package" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//Package"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:id="_zID5cMQXEd62q_MLW0kltQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_zIEggMQXEd62q_MLW0kltQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_zIEggcQXEd62q_MLW0kltQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <elementImport xmi:id="_zIEggsQXEd62q_MLW0kltQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <elementImport xmi:id="_3tjd4MQXEd62q_MLW0kltQ">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Package"/>
+  </elementImport>
+  <elementImport xmi:id="_BSwQYMSCEd62q_MLW0kltQ">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+  </elementImport>
+  <elementImport xmi:id="_Rh-vwMY9Ed6drcAS_WIADA">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_7yBY4MQXEd62q_MLW0kltQ" name="pyegg">
+    <ownedAttribute xmi:id="_93WGocQXEd62q_MLW0kltQ" name="base_Package" association="_93VfkMQXEd62q_MLW0kltQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Package"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_93VfkMQXEd62q_MLW0kltQ" name="Package_Python Egg" memberEnd="_93WGoMQXEd62q_MLW0kltQ _93WGocQXEd62q_MLW0kltQ">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_93WGoMQXEd62q_MLW0kltQ" name="extension_Python Egg" type="_7yBY4MQXEd62q_MLW0kltQ" aggregation="composite" association="_93VfkMQXEd62q_MLW0kltQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_DB_ZYMSCEd62q_MLW0kltQ" name="DecoratedClass">
+    <ownedAttribute xmi:id="_GG8_MMSCEd62q_MLW0kltQ" name="base_Class" association="_GG8YIMSCEd62q_MLW0kltQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_HaEM4MSCEd62q_MLW0kltQ" name="decorator">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_GG8YIMSCEd62q_MLW0kltQ" name="Class_ExPyclass" memberEnd="_GG8YIcSCEd62q_MLW0kltQ _GG8_MMSCEd62q_MLW0kltQ">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_GG8YIcSCEd62q_MLW0kltQ" name="extension_ExPyclass" type="_DB_ZYMSCEd62q_MLW0kltQ" aggregation="composite" association="_GG8YIMSCEd62q_MLW0kltQ"/>
+  </packagedElement>
+</uml:Profile>

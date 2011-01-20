@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:uml2tools.notation="http://www.eclipse.org/mdt/uml2tools/gmf/notation/ext/2008" xmi:id="_zIEgg8QXEd62q_MLW0kltQ" type="UMLProfile" name="pyegg.umlprofile" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_zd8C0MQXEd62q_MLW0kltQ" type="2007" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_zd8p4MQXEd62q_MLW0kltQ" type="5009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_zd8p4cQXEd62q_MLW0kltQ" type="7005">
+      <children xmi:type="notation:Node" xmi:id="_QAyNUMY-Ed6drcAS_WIADA" type="3009">
+        <element xmi:type="uml:ElementImport" href="pyegg.profile.uml#_zID5cMQXEd62q_MLW0kltQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QAyNUcY-Ed6drcAS_WIADA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_QAy0YMY-Ed6drcAS_WIADA" type="3009">
+        <element xmi:type="uml:ElementImport" href="pyegg.profile.uml#_zIEggMQXEd62q_MLW0kltQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QAy0YcY-Ed6drcAS_WIADA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_QAzbcMY-Ed6drcAS_WIADA" type="3009">
+        <element xmi:type="uml:ElementImport" href="pyegg.profile.uml#_zIEggcQXEd62q_MLW0kltQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QAzbccY-Ed6drcAS_WIADA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_QA1QoMY-Ed6drcAS_WIADA" type="3009">
+        <element xmi:type="uml:ElementImport" href="pyegg.profile.uml#_zIEggsQXEd62q_MLW0kltQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QA1QocY-Ed6drcAS_WIADA"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_zd8p4sQXEd62q_MLW0kltQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_zd8p48QXEd62q_MLW0kltQ"/>
+      <styles xmi:type="notation:CanonicalStyle" xmi:id="_zd8p5MQXEd62q_MLW0kltQ"/>
+    </children>
+    <element xmi:type="uml:Profile" href="pyegg.profile.uml#_zGgaQMQXEd62q_MLW0kltQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zd8C0cQXEd62q_MLW0kltQ"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_3ttO4MQXEd62q_MLW0kltQ" type="2006">
+    <children xmi:type="notation:DecorationNode" xmi:id="_3tt18MQXEd62q_MLW0kltQ" type="5008"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_3ttO4cQXEd62q_MLW0kltQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_3ttO4sQXEd62q_MLW0kltQ" fontName="Sans"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_3ttO48QXEd62q_MLW0kltQ"/>
+    <element xmi:type="uml:ElementImport" href="pyegg.profile.uml#_3tjd4MQXEd62q_MLW0kltQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3ttO5MQXEd62q_MLW0kltQ" x="238" y="115"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_7yeE0MQXEd62q_MLW0kltQ" type="2001" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_7yer4MQXEd62q_MLW0kltQ" type="5001">
+      <styles xmi:type="notation:FontStyle" xmi:id="_7yi9UMQXEd62q_MLW0kltQ" bold="true"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_7yer4cQXEd62q_MLW0kltQ" type="5012"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_7yer4sQXEd62q_MLW0kltQ" type="7001">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_7yer48QXEd62q_MLW0kltQ" showTitle="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_7yer5MQXEd62q_MLW0kltQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_7yer5cQXEd62q_MLW0kltQ"/>
+      <styles xmi:type="notation:CanonicalStyle" xmi:id="_7yer5sQXEd62q_MLW0kltQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_7yfS8MQXEd62q_MLW0kltQ" type="7002">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_7yfS8cQXEd62q_MLW0kltQ" showTitle="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_7yfS8sQXEd62q_MLW0kltQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_7yfS88QXEd62q_MLW0kltQ"/>
+      <styles xmi:type="notation:CanonicalStyle" xmi:id="_7yfS9MQXEd62q_MLW0kltQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_7yfS9cQXEd62q_MLW0kltQ" type="7006">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_7yfS9sQXEd62q_MLW0kltQ" showTitle="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_7yfS98QXEd62q_MLW0kltQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_7yfS-MQXEd62q_MLW0kltQ"/>
+      <styles xmi:type="notation:CanonicalStyle" xmi:id="_7yfS-cQXEd62q_MLW0kltQ"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="pyegg.profile.uml#_7yBY4MQXEd62q_MLW0kltQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7yeE0cQXEd62q_MLW0kltQ" x="225" y="205"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_BS0h0MSCEd62q_MLW0kltQ" type="2006">
+    <children xmi:type="notation:DecorationNode" xmi:id="_BS1I4MSCEd62q_MLW0kltQ" type="5008"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_BS0h0cSCEd62q_MLW0kltQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_BS0h0sSCEd62q_MLW0kltQ" fontName="Sans"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_BS0h08SCEd62q_MLW0kltQ"/>
+    <element xmi:type="uml:ElementImport" href="pyegg.profile.uml#_BSwQYMSCEd62q_MLW0kltQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BS0h1MSCEd62q_MLW0kltQ" x="415" y="115"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_DCiL8MSCEd62q_MLW0kltQ" type="2001" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_DCizAMSCEd62q_MLW0kltQ" type="5001">
+      <styles xmi:type="notation:FontStyle" xmi:id="_DCnEcMSCEd62q_MLW0kltQ" bold="true"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_DCizAcSCEd62q_MLW0kltQ" type="5012"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_DCizAsSCEd62q_MLW0kltQ" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_HasfAMSCEd62q_MLW0kltQ" type="3001">
+        <element xmi:type="uml:Property" href="pyegg.profile.uml#_HaEM4MSCEd62q_MLW0kltQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_HasfAcSCEd62q_MLW0kltQ"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_DCizA8SCEd62q_MLW0kltQ" showTitle="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_DCizBMSCEd62q_MLW0kltQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_DCizBcSCEd62q_MLW0kltQ"/>
+      <styles xmi:type="notation:CanonicalStyle" xmi:id="_DCizBsSCEd62q_MLW0kltQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_DCizB8SCEd62q_MLW0kltQ" type="7002">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_DCizCMSCEd62q_MLW0kltQ" showTitle="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_DCizCcSCEd62q_MLW0kltQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_DCizCsSCEd62q_MLW0kltQ"/>
+      <styles xmi:type="notation:CanonicalStyle" xmi:id="_DCjaEMSCEd62q_MLW0kltQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_DCjaEcSCEd62q_MLW0kltQ" type="7006">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_DCjaEsSCEd62q_MLW0kltQ" showTitle="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_DCjaE8SCEd62q_MLW0kltQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_DCjaFMSCEd62q_MLW0kltQ"/>
+      <styles xmi:type="notation:CanonicalStyle" xmi:id="_DCjaFcSCEd62q_MLW0kltQ"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="pyegg.profile.uml#_DB_ZYMSCEd62q_MLW0kltQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DCiL8cSCEd62q_MLW0kltQ" x="395" y="195"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_RjPUAMY9Ed6drcAS_WIADA" type="2006">
+    <children xmi:type="notation:DecorationNode" xmi:id="_RjQiIMY9Ed6drcAS_WIADA" type="5008"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_RjPUAcY9Ed6drcAS_WIADA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_RjPUAsY9Ed6drcAS_WIADA" fontName="Sans"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_RjPUA8Y9Ed6drcAS_WIADA"/>
+    <element xmi:type="uml:ElementImport" href="pyegg.profile.uml#_Rh-vwMY9Ed6drcAS_WIADA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RjPUBMY9Ed6drcAS_WIADA" x="660" y="134"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_zIEghMQXEd62q_MLW0kltQ"/>
+  <styles xmi:type="uml2tools.notation:U2TDiagramCanonicalStyle" xmi:id="_zIEghcQXEd62q_MLW0kltQ"/>
+  <element xmi:type="uml:Profile" href="pyegg.profile.uml#_zGgaQMQXEd62q_MLW0kltQ"/>
+  <edges xmi:type="notation:Edge" xmi:id="_93dbYMQXEd62q_MLW0kltQ" type="4002" source="_7yeE0MQXEd62q_MLW0kltQ" target="_3ttO4MQXEd62q_MLW0kltQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_93dbZMQXEd62q_MLW0kltQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_93eCcMQXEd62q_MLW0kltQ" y="-15"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_93dbYcQXEd62q_MLW0kltQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_93dbYsQXEd62q_MLW0kltQ" fontName="Sans"/>
+    <element xmi:type="uml:Extension" href="pyegg.profile.uml#_93VfkMQXEd62q_MLW0kltQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_93dbY8QXEd62q_MLW0kltQ" points="[-2, -29, -1, 70]$[-23, -119, -22, -20]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_GHDs4MSCEd62q_MLW0kltQ" type="4002" source="_DCiL8MSCEd62q_MLW0kltQ" target="_BS0h0MSCEd62q_MLW0kltQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_GHDs5MSCEd62q_MLW0kltQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_GHET8MSCEd62q_MLW0kltQ" y="-15"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_GHDs4cSCEd62q_MLW0kltQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_GHDs4sSCEd62q_MLW0kltQ" fontName="Sans"/>
+    <element xmi:type="uml:Extension" href="pyegg.profile.uml#_GG8YIMSCEd62q_MLW0kltQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GHDs48SCEd62q_MLW0kltQ" points="[-2, -29, 12, 75]$[23, -89, 37, 15]"/>
+  </edges>
+</notation:Diagram>

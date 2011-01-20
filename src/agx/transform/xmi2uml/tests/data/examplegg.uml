@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:pyegg="http:///schemas/pyegg/_dj2HcMSCEd62q_MLW0kltQ/2" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/pyegg/_dj2HcMSCEd62q_MLW0kltQ/2 pyegg.profile.uml#_dj2HccSCEd62q_MLW0kltQ">
+  <uml:Package xmi:id="_Ie0boMQYEd62q_MLW0kltQ" name="examplegg">
+    <elementImport xmi:id="_IgUQcMQYEd62q_MLW0kltQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_IgU3gMQYEd62q_MLW0kltQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <elementImport xmi:id="_IgU3gcQYEd62q_MLW0kltQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+    </elementImport>
+    <elementImport xmi:id="_IgU3gsQYEd62q_MLW0kltQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_LS6T4MQYEd62q_MLW0kltQ" name="example.agx.egg">
+      <packagedElement xmi:type="uml:Package" xmi:id="_i89uYMQYEd62q_MLW0kltQ" name="mypackage">
+        <packagedElement xmi:type="uml:Class" xmi:id="_pk7g4MQYEd62q_MLW0kltQ" name="MyClass">
+          <ownedAttribute xmi:id="_tl9tYMQYEd62q_MLW0kltQ" name="myattribute1" aggregation="composite">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_vpymkMrMEd6fQZr8hDKrzg" value="mydefault"/>
+          </ownedAttribute>
+          <ownedOperation xmi:id="_1cSJYMQYEd62q_MLW0kltQ" name="operation"/>
+          <ownedOperation xmi:id="_VJzm4MQgEd62q_MLW0kltQ" name="operation1" visibility="public">
+            <ownedParameter xmi:id="_sbv3cMZREd6drcAS_WIADA" type="_a0EwwMY-Ed6drcAS_WIADA" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_LBH7wMZGEd6drcAS_WIADA" name="DataTypeInPkg"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_USicwMZGEd6drcAS_WIADA" name="browser">
+          <packagedElement xmi:type="uml:Class" xmi:id="_YhdUQMZGEd6drcAS_WIADA" name="YourClass">
+            <ownedAttribute xmi:id="_ncCdMMZGEd6drcAS_WIADA" name="yourattr" type="_LBH7wMZGEd6drcAS_WIADA" aggregation="composite"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_a0EwwMY-Ed6drcAS_WIADA" name="MyFancyDatatype"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_FBATMMq2Ed6fQZr8hDKrzg" name="myassociations">
+      <packagedElement xmi:type="uml:Class" xmi:id="_N6EloMq2Ed6fQZr8hDKrzg" name="Klass1"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_O-SbsMq2Ed6fQZr8hDKrzg" name="Klass2" clientDependency="_xnRvUMq-Ed6fQZr8hDKrzg"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_QlcmwMq2Ed6fQZr8hDKrzg" name="Klass1_1">
+        <generalization xmi:id="_Ss73sMq2Ed6fQZr8hDKrzg" general="_N6EloMq2Ed6fQZr8hDKrzg"/>
+        <ownedAttribute xmi:id="_lGsMgMrSEd6fQZr8hDKrzg" name="dst" type="_O-SbsMq2Ed6fQZr8hDKrzg" association="_lGqXUMrSEd6fQZr8hDKrzg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lGsMgsrSEd6fQZr8hDKrzg" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lGsMgcrSEd6fQZr8hDKrzg" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_v5KAoMq-Ed6fQZr8hDKrzg" name="Klass4" clientDependency="_YGLMQMrBEd6fQZr8hDKrzg">
+        <interfaceRealization xmi:id="_YGLMQMrBEd6fQZr8hDKrzg" supplier="_6h_VoMrAEd6fQZr8hDKrzg" client="_v5KAoMq-Ed6fQZr8hDKrzg" contract="_6h_VoMrAEd6fQZr8hDKrzg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_xnRvUMq-Ed6fQZr8hDKrzg" supplier="_v5KAoMq-Ed6fQZr8hDKrzg" client="_O-SbsMq2Ed6fQZr8hDKrzg"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_6h_VoMrAEd6fQZr8hDKrzg" name="Interface"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_lGqXUMrSEd6fQZr8hDKrzg" memberEnd="_lGq-YMrSEd6fQZr8hDKrzg _lGsMgMrSEd6fQZr8hDKrzg">
+        <ownedEnd xmi:id="_lGq-YMrSEd6fQZr8hDKrzg" name="src" type="_QlcmwMq2Ed6fQZr8hDKrzg" association="_lGqXUMrSEd6fQZr8hDKrzg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lGrlccrSEd6fQZr8hDKrzg" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lGrlcMrSEd6fQZr8hDKrzg" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_9VVh0MrSEd6fQZr8hDKrzg" memberEnd="_9VVh0crSEd6fQZr8hDKrzg _9VWI4srSEd6fQZr8hDKrzg">
+        <ownedEnd xmi:id="_9VVh0crSEd6fQZr8hDKrzg" name="src" type="_N6EloMq2Ed6fQZr8hDKrzg" association="_9VVh0MrSEd6fQZr8hDKrzg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9VWI4crSEd6fQZr8hDKrzg" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9VWI4MrSEd6fQZr8hDKrzg" value="1"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_9VWI4srSEd6fQZr8hDKrzg" name="dst" type="_O-SbsMq2Ed6fQZr8hDKrzg" association="_9VVh0MrSEd6fQZr8hDKrzg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9VWv8crSEd6fQZr8hDKrzg" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9VWv8MrSEd6fQZr8hDKrzg" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ILwRwMrTEd6fQZr8hDKrzg" memberEnd="_ILw40MrTEd6fQZr8hDKrzg _ILxf4crTEd6fQZr8hDKrzg">
+        <ownedEnd xmi:id="_ILw40MrTEd6fQZr8hDKrzg" name="src" type="_N6EloMq2Ed6fQZr8hDKrzg" association="_ILwRwMrTEd6fQZr8hDKrzg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ILxf4MrTEd6fQZr8hDKrzg" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ILw40crTEd6fQZr8hDKrzg" value="1"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_ILxf4crTEd6fQZr8hDKrzg" name="dst" type="_QlcmwMq2Ed6fQZr8hDKrzg" aggregation="shared" association="_ILwRwMrTEd6fQZr8hDKrzg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ILyG8MrTEd6fQZr8hDKrzg" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ILxf4srTEd6fQZr8hDKrzg" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_LulfUMrTEd6fQZr8hDKrzg" memberEnd="_LulfUcrTEd6fQZr8hDKrzg _LumGYsrTEd6fQZr8hDKrzg">
+        <ownedEnd xmi:id="_LulfUcrTEd6fQZr8hDKrzg" name="src" type="_v5KAoMq-Ed6fQZr8hDKrzg" association="_LulfUMrTEd6fQZr8hDKrzg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LumGYcrTEd6fQZr8hDKrzg" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LumGYMrTEd6fQZr8hDKrzg" value="1"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_LumGYsrTEd6fQZr8hDKrzg" name="dst" type="_O-SbsMq2Ed6fQZr8hDKrzg" aggregation="composite" association="_LulfUMrTEd6fQZr8hDKrzg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LumtccrTEd6fQZr8hDKrzg" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LumtcMrTEd6fQZr8hDKrzg" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_ULuHoMQYEd62q_MLW0kltQ">
+      <eAnnotations xmi:id="_ULvVwMQYEd62q_MLW0kltQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pyegg.profile.uml#_dj2HccSCEd62q_MLW0kltQ"/>
+      </eAnnotations>
+      <appliedProfile href="pyegg.profile.uml#_zGgaQMQXEd62q_MLW0kltQ"/>
+    </profileApplication>
+  </uml:Package>
+  <pyegg:DecoratedClass xmi:id="_Z6YOAMZREd6drcAS_WIADA" base_Class="_YhdUQMZGEd6drcAS_WIADA" decorator="view"/>
+  <pyegg:pyegg xmi:id="_iznc0Mq1Ed6fQZr8hDKrzg" base_Package="_LS6T4MQYEd62q_MLW0kltQ"/>
+</xmi:XMI>
