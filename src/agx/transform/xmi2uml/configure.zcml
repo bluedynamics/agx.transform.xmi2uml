@@ -2,7 +2,7 @@
            xmlns:agx="http://namespaces.zope.org/agx">
   
   <include package="agx.core" />
-  <include package="agx.io.xmi" />
+  <include package="node.ext.xmi" />
   
   <agx:transform
     name="xmi2uml"

@@ -11,8 +11,8 @@ from agx.core.interfaces import ITransform
 from agx.core.interfaces import ISource
 from agx.core.interfaces import ITarget
 from agx.core.interfaces import IProfileLocation
-from agx.io.xmi import XMINode
-from agx.io.uml.core import Model
+from node.ext.xmi import XMINode
+from node.ext.uml.core import Model
 import flavours
 
 import logging

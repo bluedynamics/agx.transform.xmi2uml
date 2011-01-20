@@ -31,8 +31,8 @@ setup(name='agx.transform.xmi2uml',
       install_requires=[
           'setuptools',
           'agx.core',
-          'agx.io.xmi',
-          'agx.io.uml',
+          'node.ext.xmi',
+          'node.ext.uml',
       ],
       extras_require = dict(
           test=[

@@ -1,0 +1,3 @@
+*.pyc
+*.pyo
+src/agx.transform.xmi2uml.egg-info
