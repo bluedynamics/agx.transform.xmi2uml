@@ -6,7 +6,7 @@ from zope.interface import implements
 from zope.interface import alsoProvides
 from zope.component import getUtility
 from zope.component import getUtilitiesFor
-from zodict.interfaces import IRoot
+from node.interfaces import IRoot
 from agx.core.interfaces import ITransform
 from agx.core.interfaces import ISource
 from agx.core.interfaces import ITarget
