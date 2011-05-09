@@ -17,4 +17,3 @@ class XMI2_1(object):
     OWNED_END = 'ownedEnd'
     GENERALIZATION = 'generalization'
     INTERFACE_REALIZATION = 'interfaceRealization'
-    
