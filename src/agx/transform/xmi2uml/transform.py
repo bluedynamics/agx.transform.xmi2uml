@@ -27,7 +27,8 @@ class UMLFactory(object):
 
     def __call__(self, paths):
         xmi = XMINode('xmi', paths)
-        xmi.xmi = flavours.XMI2_1
+        xmi.xmi = flavours.guess_flavour(xmi)
+        flavours.set_active_flavour(xmi)
         return xmi
 
 
